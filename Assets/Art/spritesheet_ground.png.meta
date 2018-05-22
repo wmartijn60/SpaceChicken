@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ef64a47e09ce6cf4a9bdd7792cc2c7ef
+guid: 0d9fa6ba80a8e1b44b0751aae65e2877
 timeCreated: 1451934764
 licenseType: Free
 TextureImporter:
@@ -112,14 +112,17 @@ TextureImporter:
     21300210: spritesheet_ground_105
     21300212: spritesheet_ground_106
     21300214: spritesheet_ground_107
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -129,23 +132,22 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -153,12 +155,30 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 128
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: spritesheet_ground_0
+    - serializedVersion: 2
+      name: spritesheet_ground_0
       rect:
         serializedVersion: 2
         x: 0
@@ -168,14 +188,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 58, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 59}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_1
       rect:
         serializedVersion: 2
         x: 128
@@ -185,12 +202,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_2
       rect:
         serializedVersion: 2
         x: 256
@@ -200,14 +216,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: 15}
-        - {x: 56, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_3
       rect:
         serializedVersion: 2
         x: 384
@@ -217,15 +230,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -15}
-        - {x: -53, y: -51}
-        - {x: -5, y: -61}
-        - {x: 27, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_4
       rect:
         serializedVersion: 2
         x: 512
@@ -235,12 +244,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_5
       rect:
         serializedVersion: 2
         x: 640
@@ -250,14 +258,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63, y: 64}
-        - {x: -64, y: 62}
-        - {x: -64, y: -9}
-        - {x: -63, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_6
       rect:
         serializedVersion: 2
         x: 768
@@ -267,12 +272,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_7
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_7
       rect:
         serializedVersion: 2
         x: 0
@@ -282,12 +286,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_8
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_8
       rect:
         serializedVersion: 2
         x: 128
@@ -297,12 +300,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_9
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_9
       rect:
         serializedVersion: 2
         x: 256
@@ -312,14 +314,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 61, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 60}
-        - {x: 60, y: 64}
-    - name: spritesheet_ground_10
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_10
       rect:
         serializedVersion: 2
         x: 384
@@ -329,14 +328,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -53, y: -64}
-        - {x: 64, y: 17}
-        - {x: 64, y: 60}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_11
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_11
       rect:
         serializedVersion: 2
         x: 512
@@ -346,13 +342,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -3, y: -64}
-        - {x: 64, y: -30}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_12
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_12
       rect:
         serializedVersion: 2
         x: 640
@@ -362,12 +356,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_13
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_13
       rect:
         serializedVersion: 2
         x: 768
@@ -377,14 +370,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -8}
-        - {x: -55, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_14
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_14
       rect:
         serializedVersion: 2
         x: 0
@@ -394,14 +384,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -60}
-        - {x: -63, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_15
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_15
       rect:
         serializedVersion: 2
         x: 128
@@ -411,14 +398,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 60, y: -64}
-        - {x: 64, y: -60}
-        - {x: 64, y: 58}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_16
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_16
       rect:
         serializedVersion: 2
         x: 256
@@ -428,12 +412,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_17
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_17
       rect:
         serializedVersion: 2
         x: 384
@@ -443,14 +426,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: 14}
-        - {x: 54, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_18
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_18
       rect:
         serializedVersion: 2
         x: 512
@@ -460,14 +440,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -21}
-        - {x: -47, y: -52}
-        - {x: 19, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_19
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_19
       rect:
         serializedVersion: 2
         x: 640
@@ -477,12 +454,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_20
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_20
       rect:
         serializedVersion: 2
         x: 768
@@ -492,13 +468,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -60, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -7}
-    - name: spritesheet_ground_21
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_21
       rect:
         serializedVersion: 2
         x: 0
@@ -508,13 +482,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_22
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_22
       rect:
         serializedVersion: 2
         x: 128
@@ -524,12 +496,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_23
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_23
       rect:
         serializedVersion: 2
         x: 256
@@ -539,13 +510,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 61}
-        - {x: 60, y: 64}
-    - name: spritesheet_ground_24
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_24
       rect:
         serializedVersion: 2
         x: 384
@@ -555,14 +524,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 63, y: -64}
-        - {x: 64, y: -62}
-        - {x: 64, y: 62}
-        - {x: 63, y: 64}
-    - name: spritesheet_ground_25
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_25
       rect:
         serializedVersion: 2
         x: 512
@@ -572,14 +538,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -56, y: -64}
-        - {x: 51, y: -15}
-        - {x: 64, y: 15}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_26
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_26
       rect:
         serializedVersion: 2
         x: 640
@@ -589,14 +552,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 39, y: -64}
-        - {x: 62, y: -34}
-        - {x: 64, y: -23}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_27
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_27
       rect:
         serializedVersion: 2
         x: 768
@@ -606,12 +566,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_28
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_28
       rect:
         serializedVersion: 2
         x: 0
@@ -621,13 +580,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_29
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_29
       rect:
         serializedVersion: 2
         x: 128
@@ -637,15 +594,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: -60}
-        - {x: -61, y: -63}
-        - {x: -59, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_30
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_30
       rect:
         serializedVersion: 2
         x: 256
@@ -655,14 +608,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 58, y: -64}
-        - {x: 64, y: -59}
-        - {x: 64, y: 58}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_31
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_31
       rect:
         serializedVersion: 2
         x: 384
@@ -672,12 +622,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_32
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_32
       rect:
         serializedVersion: 2
         x: 512
@@ -687,14 +636,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: 15}
-        - {x: 57, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_33
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_33
       rect:
         serializedVersion: 2
         x: 640
@@ -704,15 +650,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -26}
-        - {x: -59, y: -52}
-        - {x: -8, y: -60}
-        - {x: 20, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_34
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_34
       rect:
         serializedVersion: 2
         x: 768
@@ -722,12 +664,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_35
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_35
       rect:
         serializedVersion: 2
         x: 0
@@ -737,13 +678,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 58, y: -12}
-        - {x: 64, y: -10}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_36
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_36
       rect:
         serializedVersion: 2
         x: 128
@@ -753,13 +692,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_37
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_37
       rect:
         serializedVersion: 2
         x: 256
@@ -769,12 +706,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_38
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_38
       rect:
         serializedVersion: 2
         x: 384
@@ -784,12 +720,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_39
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_39
       rect:
         serializedVersion: 2
         x: 512
@@ -799,14 +734,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 61, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 60}
-        - {x: 58, y: 64}
-    - name: spritesheet_ground_40
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_40
       rect:
         serializedVersion: 2
         x: 640
@@ -816,15 +748,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 59, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -53, y: -64}
-        - {x: 40, y: 0}
-        - {x: 64, y: 17}
-        - {x: 64, y: 60}
-    - name: spritesheet_ground_41
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_41
       rect:
         serializedVersion: 2
         x: 768
@@ -834,15 +762,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 2, y: -64}
-        - {x: 23, y: -62}
-        - {x: 62, y: -35}
-        - {x: 64, y: -19}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_42
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_42
       rect:
         serializedVersion: 2
         x: 0
@@ -852,12 +776,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_43
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_43
       rect:
         serializedVersion: 2
         x: 128
@@ -867,13 +790,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_44
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_44
       rect:
         serializedVersion: 2
         x: 256
@@ -883,14 +804,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -60}
-        - {x: -63, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_45
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_45
       rect:
         serializedVersion: 2
         x: 384
@@ -900,14 +818,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 58, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 59}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_46
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_46
       rect:
         serializedVersion: 2
         x: 512
@@ -917,12 +832,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_47
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_47
       rect:
         serializedVersion: 2
         x: 640
@@ -932,14 +846,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 58}
-        - {x: -64, y: 16}
-        - {x: 56, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_48
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_48
       rect:
         serializedVersion: 2
         x: 768
@@ -949,15 +860,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61, y: 64}
-        - {x: -64, y: 62}
-        - {x: -64, y: -15}
-        - {x: -33, y: -49}
-        - {x: 20, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_49
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_49
       rect:
         serializedVersion: 2
         x: 0
@@ -967,14 +874,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -7}
-        - {x: -56, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_50
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_50
       rect:
         serializedVersion: 2
         x: 128
@@ -984,13 +888,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 63}
-        - {x: 62, y: 64}
-    - name: spritesheet_ground_51
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_51
       rect:
         serializedVersion: 2
         x: 256
@@ -1000,13 +902,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_52
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_52
       rect:
         serializedVersion: 2
         x: 384
@@ -1016,12 +916,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_53
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_53
       rect:
         serializedVersion: 2
         x: 512
@@ -1031,12 +930,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_54
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_54
       rect:
         serializedVersion: 2
         x: 640
@@ -1046,14 +944,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 60, y: -64}
-        - {x: 64, y: -60}
-        - {x: 64, y: 61}
-        - {x: 63, y: 64}
-    - name: spritesheet_ground_55
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_55
       rect:
         serializedVersion: 2
         x: 768
@@ -1063,13 +958,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -56, y: -64}
-        - {x: 64, y: 11}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_56
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1079,14 +972,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -6}
-        - {x: -58, y: -12}
-        - {x: 59, y: -12}
-        - {x: 64, y: -6}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_57
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1096,12 +986,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_58
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1111,13 +1000,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_59
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1127,14 +1014,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -60}
-        - {x: -63, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_60
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_60
       rect:
         serializedVersion: 2
         x: 512
@@ -1144,14 +1028,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 58, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 59}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_61
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_61
       rect:
         serializedVersion: 2
         x: 640
@@ -1161,12 +1042,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_62
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_62
       rect:
         serializedVersion: 2
         x: 768
@@ -1176,16 +1056,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: 18}
-        - {x: -58, y: 12}
-        - {x: 56, y: -62}
-        - {x: 59, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_63
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1195,12 +1070,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_64
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_64
       rect:
         serializedVersion: 2
         x: 128
@@ -1210,14 +1084,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: -6}
-        - {x: -57, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_65
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_65
       rect:
         serializedVersion: 2
         x: 256
@@ -1227,13 +1098,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 63}
-        - {x: 62, y: 64}
-    - name: spritesheet_ground_66
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_66
       rect:
         serializedVersion: 2
         x: 384
@@ -1243,13 +1112,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_67
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_67
       rect:
         serializedVersion: 2
         x: 512
@@ -1259,12 +1126,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_68
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_68
       rect:
         serializedVersion: 2
         x: 640
@@ -1274,12 +1140,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_69
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_69
       rect:
         serializedVersion: 2
         x: 768
@@ -1289,12 +1154,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_70
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1304,12 +1168,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_71
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_71
       rect:
         serializedVersion: 2
         x: 128
@@ -1319,13 +1182,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -11}
-        - {x: -63, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_72
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_72
       rect:
         serializedVersion: 2
         x: 256
@@ -1335,12 +1196,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_73
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_73
       rect:
         serializedVersion: 2
         x: 384
@@ -1350,13 +1210,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_74
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_74
       rect:
         serializedVersion: 2
         x: 512
@@ -1366,14 +1224,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -60}
-        - {x: -63, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_75
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_75
       rect:
         serializedVersion: 2
         x: 640
@@ -1383,14 +1238,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 58, y: -64}
-        - {x: 64, y: -61}
-        - {x: 64, y: 59}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_76
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_76
       rect:
         serializedVersion: 2
         x: 768
@@ -1400,12 +1252,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_77
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_77
       rect:
         serializedVersion: 2
         x: 0
@@ -1415,15 +1266,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 64, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -22, y: -64}
-        - {x: 7, y: -57}
-        - {x: 53, y: -28}
-        - {x: 64, y: -15}
-    - name: spritesheet_ground_78
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_78
       rect:
         serializedVersion: 2
         x: 128
@@ -1433,12 +1280,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_79
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_79
       rect:
         serializedVersion: 2
         x: 256
@@ -1448,14 +1294,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -7}
-        - {x: -57, y: -11}
-        - {x: 64, y: -11}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_80
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_80
       rect:
         serializedVersion: 2
         x: 384
@@ -1465,14 +1308,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 60, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -11}
-        - {x: 58, y: -11}
-        - {x: 64, y: -6}
-        - {x: 64, y: 60}
-    - name: spritesheet_ground_81
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_81
       rect:
         serializedVersion: 2
         x: 512
@@ -1482,13 +1322,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_82
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_82
       rect:
         serializedVersion: 2
         x: 640
@@ -1498,12 +1336,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_83
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_83
       rect:
         serializedVersion: 2
         x: 768
@@ -1513,14 +1350,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: -61}
-        - {x: -62, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_84
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1530,16 +1364,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 64}
-        - {x: -64, y: 63}
-        - {x: -64, y: -16}
-        - {x: -63, y: -26}
-        - {x: -9, y: -61}
-        - {x: 23, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_85
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_85
       rect:
         serializedVersion: 2
         x: 128
@@ -1549,12 +1378,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_86
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_86
       rect:
         serializedVersion: 2
         x: 256
@@ -1564,12 +1392,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -11}
-        - {x: 64, y: -11}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_87
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_87
       rect:
         serializedVersion: 2
         x: 384
@@ -1579,12 +1406,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -11}
-        - {x: 64, y: -11}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_88
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_88
       rect:
         serializedVersion: 2
         x: 512
@@ -1594,13 +1420,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_89
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_89
       rect:
         serializedVersion: 2
         x: 640
@@ -1610,14 +1434,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -60}
-        - {x: -63, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_90
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_90
       rect:
         serializedVersion: 2
         x: 0
@@ -1627,14 +1448,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -55, y: -64}
-        - {x: 64, y: 15}
-        - {x: 64, y: 60}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_91
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_91
       rect:
         serializedVersion: 2
         x: 128
@@ -1644,15 +1462,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 64, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -29, y: -64}
-        - {x: -6, y: -59}
-        - {x: 40, y: -43}
-        - {x: 64, y: -18}
-    - name: spritesheet_ground_92
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_92
       rect:
         serializedVersion: 2
         x: 256
@@ -1662,12 +1476,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_93
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_93
       rect:
         serializedVersion: 2
         x: 384
@@ -1677,14 +1490,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -8}
-        - {x: -55, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_94
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_94
       rect:
         serializedVersion: 2
         x: 512
@@ -1694,13 +1504,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 58, y: -12}
-        - {x: 64, y: -10}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_95
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_95
       rect:
         serializedVersion: 2
         x: 640
@@ -1710,13 +1518,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61, y: 64}
-        - {x: -64, y: -61}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_96
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1726,14 +1532,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 64}
-        - {x: -64, y: 60}
-        - {x: -64, y: 15}
-        - {x: 57, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_97
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_97
       rect:
         serializedVersion: 2
         x: 128
@@ -1743,15 +1546,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -43}
-        - {x: -60, y: -61}
-        - {x: -19, y: -60}
-        - {x: 14, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_98
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_98
       rect:
         serializedVersion: 2
         x: 256
@@ -1761,12 +1560,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_99
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_99
       rect:
         serializedVersion: 2
         x: 384
@@ -1776,13 +1574,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 59}
-        - {x: 60, y: 64}
-    - name: spritesheet_ground_100
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_100
       rect:
         serializedVersion: 2
         x: 512
@@ -1792,12 +1588,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_101
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_101
       rect:
         serializedVersion: 2
         x: 640
@@ -1807,13 +1602,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: -61}
-        - {x: -61, y: 64}
-    - name: spritesheet_ground_102
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_102
       rect:
         serializedVersion: 2
         x: 0
@@ -1823,12 +1616,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_103
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_103
       rect:
         serializedVersion: 2
         x: 128
@@ -1838,14 +1630,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: -57, y: -64}
-        - {x: 64, y: 17}
-        - {x: 64, y: 60}
-        - {x: 59, y: 64}
-    - name: spritesheet_ground_104
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_104
       rect:
         serializedVersion: 2
         x: 256
@@ -1855,15 +1644,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 37, y: -64}
-        - {x: 45, y: -63}
-        - {x: 63, y: -26}
-        - {x: 64, y: -15}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_105
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_105
       rect:
         serializedVersion: 2
         x: 384
@@ -1873,12 +1658,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 64}
-        - {x: -64, y: -64}
-        - {x: 64, y: -64}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_106
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_106
       rect:
         serializedVersion: 2
         x: 512
@@ -1888,14 +1672,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58, y: 64}
-        - {x: -64, y: 59}
-        - {x: -64, y: -7}
-        - {x: -56, y: -12}
-        - {x: 64, y: -12}
-        - {x: 64, y: 64}
-    - name: spritesheet_ground_107
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spritesheet_ground_107
       rect:
         serializedVersion: 2
         x: 640
@@ -1905,14 +1686,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 59, y: 64}
-        - {x: -64, y: 64}
-        - {x: -64, y: -12}
-        - {x: 56, y: -12}
-        - {x: 64, y: -7}
-        - {x: 64, y: 61}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
