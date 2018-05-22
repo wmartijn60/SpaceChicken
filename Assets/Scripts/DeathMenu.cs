@@ -9,7 +9,7 @@ public class DeathMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void QuitToMain()

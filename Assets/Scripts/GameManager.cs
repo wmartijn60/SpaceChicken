@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
 
     public DeathMenu deathMenu;
 
-	// Use this for initialization
 	void Start ()
     {
         playerStartPoint = thePlayer.transform.position;
