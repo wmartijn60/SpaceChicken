@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour 
 {
     public Text scoreText;
     public Text highScoreText;
+    public Transform player;
+    public Rigidbody2D prefab;
+    private bool oneTime = true;
 
     public float scoreCount;
     public float highScoreCount;
@@ -39,6 +43,17 @@ public class ScoreManager : MonoBehaviour
 
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
         highScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
+
+	    if (scoreCount >= 300)
+	    {
+	        if (oneTime == true)
+	        {
+	            Vector2 a = new  Vector2(player.position.x + 20, player.position.y);
+	            Rigidbody2D b = Instantiate(prefab, a, Quaternion.identity);
+	            oneTime = false;
+	        }
+            
+        }
 	}
 
     public void AddScore(int pointsScored)
