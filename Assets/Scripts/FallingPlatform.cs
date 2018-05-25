@@ -28,7 +28,17 @@ public class FallingPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(fallDelay);
         rb2d.isKinematic = false;
+
+        StartCoroutine(ExecuteAfterTime(0.5f));
+
+        //GetComponent<Collider2D>().isTrigger = true;
+       // yield return 0;
+    }
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
         GetComponent<Collider2D>().isTrigger = true;
         yield return 0;
+        // Code to execute after the delay
     }
 }
