@@ -31,8 +31,7 @@ public class FallingPlatform : MonoBehaviour
 
         StartCoroutine(ExecuteAfterTime(0.5f));
 
-        //GetComponent<Collider2D>().isTrigger = true;
-       // yield return 0;
+      
     }
     IEnumerator ExecuteAfterTime(float time)
     {

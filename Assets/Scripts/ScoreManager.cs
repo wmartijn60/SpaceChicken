@@ -44,16 +44,22 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
         highScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
 
-	    if (scoreCount >= 300)
+
+	    if (Input.GetKeyDown("p"))
 	    {
-	        if (oneTime == true)
-	        {
-	            Vector2 a = new  Vector2(player.position.x + 20, player.position.y);
-	            Rigidbody2D b = Instantiate(prefab, a, Quaternion.identity);
-	            oneTime = false;
-	        }
+	        PlayerPrefs.DeleteAll();
+	    }
+
+	    //if (scoreCount >= 300)
+	    //{
+	        //if (oneTime == true)
+	        //{
+	         //   Vector2 a = new  Vector2(player.position.x + 20, player.position.y);
+	        //    Rigidbody2D b = Instantiate(prefab, a, Quaternion.identity);
+	         //   oneTime = false;
+	      //  }
             
-        }
+       // }
 	}
 
     public void AddScore(int pointsScored)
