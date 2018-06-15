@@ -65,6 +65,7 @@ public class UnlockLevels : MonoBehaviour
             colors.highlightedColor = new Color32(0, 0, 255, 255);
             levels[3].colors = colors;
 
+
         }
     }
 }

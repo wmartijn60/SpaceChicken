@@ -41,8 +41,8 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.SetFloat("highScore", highScoreCount);
         }
 
-        scoreText.text = "Score: " + Mathf.Round(scoreCount);
-        highScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
+        scoreText.text = "SCORE: " + Mathf.Round(scoreCount);
+        highScoreText.text = "HIGH SCORE: " + Mathf.Round(highScoreCount);
 
 
 	    if (Input.GetKeyDown("p"))
