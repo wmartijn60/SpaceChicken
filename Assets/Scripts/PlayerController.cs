@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0))
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             jumpTimeCounter = 0;
             grounded = false;

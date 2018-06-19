@@ -9,11 +9,20 @@ public class DeathMenu : MonoBehaviour
 
     public void RestartGame()
     {
+
         SceneManager.LoadScene(0);
     }
-
+   
     public void QuitToMain()
     {
         SceneManager.LoadScene(mainMenuLevel);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
