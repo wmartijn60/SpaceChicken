@@ -10,7 +10,7 @@ public class DeathMenu : MonoBehaviour
     public void RestartGame()
     {
 
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
    
     public void QuitToMain()
@@ -22,7 +22,7 @@ public class DeathMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
