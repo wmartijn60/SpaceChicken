@@ -18,14 +18,14 @@ EditorBuildSettings:
     path: Assets/_Scenes/LevelSelectur.unity
     guid: 8f3ff57849bb8fe429844d1c152a3f1f
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/46fad1a37d7149445a88407c47a02443
-    guid: 46fad1a37d7149445a88407c47a02443
-  - enabled: 1
-    path: Assets/_Scenes/StartScreen.unity
-    guid: 03ad9f4bed505df49a86fe29ae826c5b
-  - enabled: 1
-    path: Assets/_Scenes/Tutorial.unity
-    guid: a855a70f21f82524ebf201b5bb1ad5ab
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_Scenes/Level2.unity
     guid: 790870be2c585ee49b1c2a6ac008316b

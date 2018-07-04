@@ -192,7 +192,7 @@ Prefab:
     - target: {fileID: 61378170340983962, guid: 1fad20a11153f0d448c0b225153a50c6,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.4822241
+      value: 0.8295399
       objectReference: {fileID: 0}
     - target: {fileID: 95545205304712568, guid: 1fad20a11153f0d448c0b225153a50c6,
         type: 2}
@@ -202,7 +202,7 @@ Prefab:
     - target: {fileID: 61378170340983962, guid: 1fad20a11153f0d448c0b225153a50c6,
         type: 2}
       propertyPath: m_Offset.y
-      value: -0.858888
+      value: -0.6852301
       objectReference: {fileID: 0}
     - target: {fileID: 61378170340983962, guid: 1fad20a11153f0d448c0b225153a50c6,
         type: 2}
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 204458545}
   - component: {fileID: 204458544}
   m_Layer: 5
-  m_Name: LevelSelect
+  m_Name: level selector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -587,7 +587,7 @@ RectTransform:
   m_GameObject: {fileID: 204458542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1781285447}
   m_Father: {fileID: 1122202184}
@@ -595,8 +595,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.900024, y: 33}
-  m_SizeDelta: {x: 454.6, y: 52.3}
+  m_AnchoredPosition: {x: -41.900024, y: 46.9}
+  m_SizeDelta: {x: 371.21, y: 91.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204458544
 MonoBehaviour:
@@ -670,7 +670,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 6f757726fe858004f847795cbe7246dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfc6d2e126ab54146a287115eca67e39, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4688,7 +4688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: 644af61a37ffc674ab3d9bd9ee72f74f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7ea27560cd0a8044a9dee214ad60c50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5150,7 +5150,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1609665168
+  randomSeed: -347262718
   InitialModule:
     serializedVersion: 3
     enabled: 1
