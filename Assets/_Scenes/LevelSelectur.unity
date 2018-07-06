@@ -736,7 +736,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Venus '
+  m_Text: "Venus \nComming soon"
 --- !u!222 &466389014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Jupiter '
+  m_Text: "Jupiter \nComming soon"
 --- !u!222 &1202320686
 CanvasRenderer:
   m_ObjectHideFlags: 0
